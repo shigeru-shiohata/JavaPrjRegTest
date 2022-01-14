@@ -14,7 +14,7 @@ public class HelloWorldAction extends Action {
 	public ActionForward execute(ActionMapping mapping,
 				ActionForm form,HttpServletRequest request,HttpServletResponse response) throws Exception {
 
-		return mapping.findForward("hello");
+		return mapping.findForward("hello　hello　hello");
 	}
 
 }
